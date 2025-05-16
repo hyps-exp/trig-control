@@ -1,9 +1,9 @@
-param/Clock_20250413.txt
+param/2025May/LambdaProduction_T0xTOF.txt
 
-RGN1::SEL_TOF                        3
+RGN1::SEL_TOF                        0
 RGN2A::DELAY_BH1_BEAM                1
 RGN2A::DELAY_BH2_BEAM                1
-RGN2A::DELAY_BAC_BEAM               17
+RGN2A::DELAY_BAC_BEAM               11
 RGN2A::DELAY_HTOF_BEAM               1
 RGN2A::DELAY_OTHER1_BEAM             1
 RGN2A::DELAY_OTHER2_BEAM             1
@@ -15,7 +15,7 @@ RGN2A::WIDTH_OTHER1_BEAM            10
 RGN2A::WIDTH_OTHER2_BEAM            10
 RGN2A::BPS_CTRL_BEAM                24
 RGN2A::BPS_COIN_BEAM                16
-RGN2A::DELAY_BEAM_SCAT               5
+RGN2A::DELAY_BEAM_SCAT              13
 RGN2A::DELAY_PVAC_SCAT              18
 RGN2A::DELAY_FAC_SCAT                5
 RGN2A::DELAY_TOF_SCAT                1
@@ -27,8 +27,8 @@ RGN2A::DELAY_M3D_SCAT                1
 RGN2A::DELAY_OTHER3_SCAT             1
 RGN2A::DELAY_OTHER4_SCAT             1
 RGN2A::WIDTH_BEAM_SCAT               1
-RGN2A::WIDTH_PVAC_SCAT              16
-RGN2A::WIDTH_FAC_SCAT               16
+RGN2A::WIDTH_PVAC_SCAT              20
+RGN2A::WIDTH_FAC_SCAT               20
 RGN2A::WIDTH_TOF_SCAT               10
 RGN2A::WIDTH_LAC_SCAT               14
 RGN2A::WIDTH_WC_SCAT                10
@@ -41,7 +41,7 @@ RGN2A::BPS_CTRL_SCAT              1856
 RGN2A::BPS_COIN_SCAT              1088
 RGN2B::DELAY_BH1_BEAM                1
 RGN2B::DELAY_BH2_BEAM                1
-RGN2B::DELAY_BAC_BEAM               17
+RGN2B::DELAY_BAC_BEAM               11
 RGN2B::DELAY_HTOF_BEAM               1
 RGN2B::DELAY_OTHER1_BEAM             1
 RGN2B::DELAY_OTHER2_BEAM             1
@@ -53,7 +53,7 @@ RGN2B::WIDTH_OTHER1_BEAM            10
 RGN2B::WIDTH_OTHER2_BEAM            10
 RGN2B::BPS_CTRL_BEAM                16
 RGN2B::BPS_COIN_BEAM                16
-RGN2B::DELAY_BEAM_SCAT               5
+RGN2B::DELAY_BEAM_SCAT              13
 RGN2B::DELAY_PVAC_SCAT              18
 RGN2B::DELAY_FAC_SCAT                5
 RGN2B::DELAY_TOF_SCAT                1
@@ -65,8 +65,8 @@ RGN2B::DELAY_M3D_SCAT                1
 RGN2B::DELAY_OTHER3_SCAT             1
 RGN2B::DELAY_OTHER4_SCAT             1
 RGN2B::WIDTH_BEAM_SCAT               1
-RGN2B::WIDTH_PVAC_SCAT              16
-RGN2B::WIDTH_FAC_SCAT               16
+RGN2B::WIDTH_PVAC_SCAT              20
+RGN2B::WIDTH_FAC_SCAT               20
 RGN2B::WIDTH_TOF_SCAT               10
 RGN2B::WIDTH_LAC_SCAT               14
 RGN2B::WIDTH_WC_SCAT                10
@@ -231,7 +231,7 @@ RGN2F::BPS_CTRL_SCAT                 0
 RGN2F::BPS_COIN_SCAT                 0
 RGN3::PS_R2A                         0
 RGN3::GATE_R2A                       3
-RGN3::PS_R2B                       199
+RGN3::PS_R2B                       359
 RGN3::GATE_R2B                       1
 RGN3::PS_R2C                         0
 RGN3::GATE_R2C                       1
@@ -241,7 +241,7 @@ RGN3::PS_R2E                         0
 RGN3::GATE_R2E                       1
 RGN3::PS_R2F                         0
 RGN3::GATE_R2F                       1
-RGN3::SEL_PSOR                      16
+RGN3::SEL_PSOR                       3
 RGN3::RST_PSCNT                      0
 RGN4::SEL_EXTCLK                     0
 RGN4::SEL_RSV2                       0
