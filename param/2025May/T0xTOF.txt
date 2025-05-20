@@ -72,7 +72,7 @@ RGN2A::WIDTH_BEAM_SCAT		1	#  0-127, actually T0
 RGN2A::WIDTH_PVAC_SCAT		20	#  0-127, actually AC
 RGN2A::WIDTH_FAC_SCAT		20	#  0-127, actually eeveto
 RGN2A::WIDTH_TOF_SCAT		10	#  0-127
-RGN2A::WIDTH_LAC_SCAT		14	#  0-127, actually TOF OR
+RGN2A::WIDTH_LAC_SCAT		11	#  0-127, actually TOF OR
 RGN2A::WIDTH_WC_SCAT		10	#  0-127
 RGN2A::WIDTH_M2D1_SCAT		10	#  0-127
 RGN2A::WIDTH_M2D2_SCAT		10	#  0-127
@@ -136,7 +136,7 @@ RGN2B::WIDTH_BEAM_SCAT		1	#  0-127, actually T0
 RGN2B::WIDTH_PVAC_SCAT		20	#  0-127, actually AC
 RGN2B::WIDTH_FAC_SCAT		20	#  0-127, actually eeveto
 RGN2B::WIDTH_TOF_SCAT		10	#  0-127
-RGN2B::WIDTH_LAC_SCAT		14	#  0-127, actually TOF OR
+RGN2B::WIDTH_LAC_SCAT		11	#  0-127, actually TOF OR
 RGN2B::WIDTH_WC_SCAT		10	#  0-127
 RGN2B::WIDTH_M2D1_SCAT		10	#  0-127
 RGN2B::WIDTH_M2D2_SCAT		10	#  0-127
@@ -418,7 +418,7 @@ RGN2F::COIN_OTHER4		2	#  0: Veto,  1: On,  2: Off, actually CFT trig
 #                                                                             #
 ###############################################################################
 RGN3::PS_R2A		1	#  0-16777215
-RGN3::PS_R2B		1	#  0-16777215
+RGN3::PS_R2B		40	#  0-16777215
 RGN3::PS_R2C		1	#  0-16777215
 RGN3::PS_R2D		1	#  0-16777215
 RGN3::PS_R2E		1	#  0-16777215

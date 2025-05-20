@@ -1,4 +1,4 @@
-param/2025May/LambdaProduction_T0xTOF.txt
+param/2025May/LambdaProduction.txt
 
 RGN1::SEL_TOF                        0
 RGN2A::DELAY_BH1_BEAM                1
@@ -30,7 +30,7 @@ RGN2A::WIDTH_BEAM_SCAT               1
 RGN2A::WIDTH_PVAC_SCAT              20
 RGN2A::WIDTH_FAC_SCAT               20
 RGN2A::WIDTH_TOF_SCAT               10
-RGN2A::WIDTH_LAC_SCAT               14
+RGN2A::WIDTH_LAC_SCAT               11
 RGN2A::WIDTH_WC_SCAT                10
 RGN2A::WIDTH_M2D1_SCAT              10
 RGN2A::WIDTH_M2D2_SCAT              10
@@ -68,14 +68,14 @@ RGN2B::WIDTH_BEAM_SCAT               1
 RGN2B::WIDTH_PVAC_SCAT              20
 RGN2B::WIDTH_FAC_SCAT               20
 RGN2B::WIDTH_TOF_SCAT               10
-RGN2B::WIDTH_LAC_SCAT               14
+RGN2B::WIDTH_LAC_SCAT               11
 RGN2B::WIDTH_WC_SCAT                10
 RGN2B::WIDTH_M2D1_SCAT              10
 RGN2B::WIDTH_M2D2_SCAT              10
 RGN2B::WIDTH_M3D_SCAT               10
 RGN2B::WIDTH_OTHER3_SCAT            10
 RGN2B::WIDTH_OTHER4_SCAT            10
-RGN2B::BPS_CTRL_SCAT              1088
+RGN2B::BPS_CTRL_SCAT              1344
 RGN2B::BPS_COIN_SCAT              1088
 RGN2C::DELAY_BH1_BEAM                1
 RGN2C::DELAY_BH2_BEAM                1
@@ -231,7 +231,7 @@ RGN2F::BPS_CTRL_SCAT                 0
 RGN2F::BPS_COIN_SCAT                 0
 RGN3::PS_R2A                         0
 RGN3::GATE_R2A                       3
-RGN3::PS_R2B                       359
+RGN3::PS_R2B                       129
 RGN3::GATE_R2B                       1
 RGN3::PS_R2C                         0
 RGN3::GATE_R2C                       1
