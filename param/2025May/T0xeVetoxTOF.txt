@@ -146,7 +146,7 @@ RGN2B::WIDTH_OTHER4_SCAT	10	#  0-127, actually CFT trig
 
 RGN2B::COIN_BEAM		1	#  0: Veto,  1: On,  2: Off, actually T0
 RGN2B::COIN_PVAC		2	#  0: Veto,  1: On,  2: Off, actually AC
-RGN2B::COIN_FAC			2	#  0: Veto,  1: On,  2: Off, actually eeveto
+RGN2B::COIN_FAC			0	#  0: Veto,  1: On,  2: Off, actually eeveto
 RGN2B::COIN_TOF			2	#  0: Veto,  1: On,  2: Off
 RGN2B::COIN_LAC			1	#  0: Veto,  1: On,  2: Off, actually TOF OR
 RGN2B::COIN_WC			2	#  0: Veto,  1: On,  2: Off
@@ -418,7 +418,7 @@ RGN2F::COIN_OTHER4		2	#  0: Veto,  1: On,  2: Off, actually CFT trig
 #                                                                             #
 ###############################################################################
 RGN3::PS_R2A		1	#  0-16777215
-RGN3::PS_R2B		300	#  0-16777215
+RGN3::PS_R2B		17	#  0-16777215
 RGN3::PS_R2C		1	#  0-16777215
 RGN3::PS_R2D		1	#  0-16777215
 RGN3::PS_R2E		1	#  0-16777215
@@ -437,7 +437,7 @@ RGN3::SEL_R2B		0	#  0: Off,  1: On
 RGN3::SEL_R2C		0	#  0: Off,  1: On
 RGN3::SEL_R2D		0	#  0: Off,  1: On
 RGN3::SEL_R2E		1	#  0: Off,  1: On
-RGN3::SEL_R2F		1	#  0: Off,  1: On
+RGN3::SEL_R2F		0	#  0: Off,  1: On
 
 ###############################################################################
 #                                                                             #

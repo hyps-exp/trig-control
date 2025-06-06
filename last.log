@@ -1,4 +1,4 @@
-param/2025May/LambdaProduction.txt
+param/2025May/Clock.txt
 
 RGN1::SEL_TOF                        0
 RGN2A::DELAY_BH1_BEAM                1
@@ -30,7 +30,7 @@ RGN2A::WIDTH_BEAM_SCAT               1
 RGN2A::WIDTH_PVAC_SCAT              20
 RGN2A::WIDTH_FAC_SCAT               20
 RGN2A::WIDTH_TOF_SCAT               10
-RGN2A::WIDTH_LAC_SCAT               11
+RGN2A::WIDTH_LAC_SCAT               14
 RGN2A::WIDTH_WC_SCAT                10
 RGN2A::WIDTH_M2D1_SCAT              10
 RGN2A::WIDTH_M2D2_SCAT              10
@@ -68,7 +68,7 @@ RGN2B::WIDTH_BEAM_SCAT               1
 RGN2B::WIDTH_PVAC_SCAT              20
 RGN2B::WIDTH_FAC_SCAT               20
 RGN2B::WIDTH_TOF_SCAT               10
-RGN2B::WIDTH_LAC_SCAT               11
+RGN2B::WIDTH_LAC_SCAT               14
 RGN2B::WIDTH_WC_SCAT                10
 RGN2B::WIDTH_M2D1_SCAT              10
 RGN2B::WIDTH_M2D2_SCAT              10
@@ -241,7 +241,7 @@ RGN3::PS_R2E                         0
 RGN3::GATE_R2E                       1
 RGN3::PS_R2F                         0
 RGN3::GATE_R2F                       1
-RGN3::SEL_PSOR                       3
+RGN3::SEL_PSOR                      16
 RGN3::RST_PSCNT                      0
 RGN4::SEL_EXTCLK                     0
 RGN4::SEL_RSV2                       0
