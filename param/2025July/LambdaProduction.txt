@@ -242,7 +242,7 @@ RGN2D::WIDTH_OTHER2_BEAM	10	#  0-127
 
 RGN2D::COIN_BH1			2	#  0: Veto,  1: On,  2: Off
 RGN2D::COIN_BH2			1	#  0: Veto,  1: On,  2: Off, actually T0
-RGN2D::COIN_BAC			0	#  0: Veto,  1: On,  2: Off, actually UpVeto
+RGN2D::COIN_BAC			2	#  0: Veto,  1: On,  2: Off, actually UpVeto
 RGN2D::COIN_HTOF		2	#  0: Veto,  1: On,  2: Off
 RGN2D::COIN_OTHER1		2	#  0: Veto,  1: On,  2: Off
 RGN2D::COIN_OTHER2		2	#  0: Veto,  1: On,  2: Off
