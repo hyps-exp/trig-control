@@ -1,4 +1,4 @@
-###############################################################################
+##############################################################################
 #                                                                             #
 #  Region1 : TOF Segment Selection                                            #
 #                                                                             #
@@ -114,7 +114,7 @@ RGN2B::WIDTH_OTHER2_BEAM	10	#  0-127
 
 RGN2B::COIN_BH1			2	#  0: Veto,  1: On,  2: Off
 RGN2B::COIN_BH2			1	#  0: Veto,  1: On,  2: Off, actually T0
-RGN2B::COIN_BAC			2	#  0: Veto,  1: On,  2: Off, actually UpVeto
+RGN2B::COIN_BAC			0	#  0: Veto,  1: On,  2: Off, actually UpVeto
 RGN2B::COIN_HTOF		2	#  0: Veto,  1: On,  2: Off
 RGN2B::COIN_OTHER1		2	#  0: Veto,  1: On,  2: Off
 RGN2B::COIN_OTHER2		2	#  0: Veto,  1: On,  2: Off
@@ -146,7 +146,7 @@ RGN2B::WIDTH_OTHER4_SCAT	19	#  0-127, actually CFT trig
 
 RGN2B::COIN_BEAM		1	#  0: Veto,  1: On,  2: Off, actually T0
 RGN2B::COIN_PVAC		2	#  0: Veto,  1: On,  2: Off, actually AC
-RGN2B::COIN_FAC			0	#  0: Veto,  1: On,  2: Off, actually eeveto
+RGN2B::COIN_FAC			2	#  0: Veto,  1: On,  2: Off, actually eeveto
 RGN2B::COIN_TOF			2	#  0: Veto,  1: On,  2: Off
 RGN2B::COIN_LAC			1	#  0: Veto,  1: On,  2: Off, actually TOF OR
 RGN2B::COIN_WC			2	#  0: Veto,  1: On,  2: Off
