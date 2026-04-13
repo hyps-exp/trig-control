@@ -1,7 +1,7 @@
-IOM::NIMOUT1  6
-IOM::NIMOUT2  7
-IOM::NIMOUT3  8
-IOM::NIMOUT4  10
+IOM::NIMOUT1  6  # BEAM A
+IOM::NIMOUT2  7  # SAC (PVAC)  A
+IOM::NIMOUT3  8  # eVeto (FAC) A
+IOM::NIMOUT4  10 # TOF (LAC) A
 
 			##########################################
 			##	0	BH1_RGN2A		##

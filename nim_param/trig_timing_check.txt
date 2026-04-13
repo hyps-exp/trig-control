@@ -1,7 +1,38 @@
-IOM::NIMOUT1  1 # T0 (BH2) A
-IOM::NIMOUT2  2 # UpVeto (BAC) A
-IOM::NIMOUT3  4 # SAC (Other1) A
-IOM::NIMOUT4  5 # None (Other2) A
+###------- Production -------###
+IOM::NIMOUT1  114 # PSOR A
+IOM::NIMOUT2  115 # PSOR B
+IOM::NIMOUT3  53  # SCAT C (L2 Acc., L1 acc pass through)
+IOM::NIMOUT4  71  # SCAT D (CLR, not used)
+
+
+###------- Trig. timing check -------###
+##--- Beam
+# IOM::NIMOUT1  1 # T0 (BH2) A
+# IOM::NIMOUT2  2 # UpVeto (BAC) A
+# IOM::NIMOUT3  4 # Other1 (SAC as Beam) A
+# IOM::NIMOUT4  5 # Other2 (None) A
+
+##--- Scat
+# IOM::NIMOUT1  6  # BEAM A
+# IOM::NIMOUT2  7  # SAC (PVAC)  A
+# IOM::NIMOUT3  8  # eVeto (FAC) A
+# IOM::NIMOUT4  10 # TOF (LAC) A
+
+##--- TRIG-D
+# IOM::NIMOUT1  6  # BEAM A
+# IOM::NIMOUT2  8  # eVeto (FAC) A
+# IOM::NIMOUT3  10 # TOF (LAC) A
+# IOM::NIMOUT4  16 # CFT (Other4) A
+
+##--- Misc (using TRIG-E)
+# IOM::NIMOUT1  114 # PSOR A
+# IOM::NIMOUT2  82 # TOF (LAC) E
+# IOM::NIMOUT2  87 # BGO (Other3) E
+# IOM::NIMOUT2  88 # CFT (Other4) E
+
+
+# IOM::NIMOUT3  48 # MTX2D1, L1 Acc
+# IOM::NIMOUT4  43 # PVAC
 
 			##########################################
 			##	0	BH1_RGN2A		##
